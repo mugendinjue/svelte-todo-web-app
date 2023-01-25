@@ -3,3 +3,5 @@ export interface Itodo {
     text: string,
     completed: boolean
 }
+
+export type FiltersType = 'all' | 'active' | 'completed'
